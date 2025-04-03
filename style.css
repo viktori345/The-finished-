@@ -27,6 +27,11 @@ h2{
     border-bottom: 2px solid #ff0000;
     padding-bottom: 10px;
     margin-bottom: 15px;
+    
+}
+h1{
+    margin: 0;
+    padding: 0;
 }
 
 img{
@@ -38,14 +43,7 @@ img{
     border-radius: 5px;
 }
 
-.attraction{
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    background: white;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 10px; 
-}
+
 
 .cta-button {
 
@@ -66,7 +64,24 @@ img{
     text-align: center;
     margin: 2rem 0;
 }
+.back-to-top {
+    width: 10%;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+   
+  .back-to-top.active {
+    transition: 0.3s all;
+    bottom: 50px;
+  }
 
+  
+
+  
 @media (max-width: 768px) {
     table, th, td {
         font-size: 14px;
