@@ -8,8 +8,9 @@ header{
 
 
 section{
+    margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.158);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.445);
     background: rgb(255, 255, 255);
     padding: 2rem;
     margin-bottom: 2rem;
@@ -23,9 +24,10 @@ main{
 }
 
 h3{
+    font-size: x-large;
+    text-align: center;
     color: #000000;
-    margin: 0;
-    padding: 0;
+   margin: 20px;
     
 }
 
