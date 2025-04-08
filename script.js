@@ -10,6 +10,6 @@ document.querySelector('.cta-button').addEventListener('mouseout', function() {
     $('body,html').animate({ scrollTop: 0}, 800); 
 });
 
-
-
-
+ temp1.addEventListener('click',() => {
+    window.scrollTo(0, 0)
+ })
