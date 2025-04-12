@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 header{
     background-color: #35424a;
     color: #ffffff;
@@ -5,7 +9,12 @@ header{
     text-align: center;
  }
  
- 
+ .attaction{
+    background-color: #ffffff;
+    height: 1116px;
+    max-width: 100%;
+    overflow: auto;
+ }
  
  section{
      margin: 10px;
@@ -95,7 +104,5 @@ header{
  
  
  @media (max-width: 768px) {
-     table, th, td {
-         font-size: 14px;
-     }
+
      }
