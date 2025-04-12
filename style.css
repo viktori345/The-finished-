@@ -104,5 +104,7 @@ header{
  
  
  @media (max-width: 768px) {
-
+.attaction{
+    height: 100px;
+}
      }
